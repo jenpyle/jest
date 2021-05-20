@@ -1,5 +1,13 @@
 const removeOddNumbers = arr => {
-    return [];
+    // let evenNumbers = [];
+
+    // for (let i = 0; i < arr.length; i++) {
+    //     if (arr[i] % 2 === 0) {
+    //         evenNumbers.push(arr[i]);
+    //     }
+    // }
+    // return evenNumbers;
+    return arr.filter(elem => elem % 2 === 0);
 }
 
 export default removeOddNumbers;

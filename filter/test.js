@@ -1,10 +1,8 @@
 import removeOddNumbers from './removeOddNumbers';
 
-describe('#removeDuplicates', () => {
+describe('#removeOddNumbers', () => {
     it('should remove odd numbers from array', () => {
-        const result = removeOddNumbers([]);
-        console.log(result);
-        expect(1).toEqual(1);
+        const result = removeOddNumbers([1, 2, 3, 4, 5, 6]);
+        expect(result).toEqual([2, 4, 6]);
     });
-
   });
